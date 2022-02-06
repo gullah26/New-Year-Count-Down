@@ -1,0 +1,41 @@
+/*Goodle font style link*/
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mina&family=Petemoss&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100%;
+  width: 100%;
+  
+}
+
+.heading {
+  text-align: center;
+  margin-top: 220px;
+  font-size: 2rem;
+  font-family: 'Aldrich', sans-serif;
+  color: gold;
+  
+}
+
+.countdown {
+  display:flex;
+  flex-direction: center;
+  justify-content: space-evenly;
+  position: relative;
+  font-family: 'Mina', sans-serif;
+  font-size: 1rem;
+  margin-top: 50px;
+  color: white;
+
+}
