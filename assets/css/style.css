@@ -1,41 +1,55 @@
 /*Goodle font style link*/
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mina&family=Petemoss&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Keania+One&family=Mina&family=Petemoss&display=swap');
 
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {  
-
-  margin: 0;
-  overflow: hidden;
-  background-image: url("../images/background.webp");
+body {
+  /*background-image: url('assets/images/skyone.jpg'); for some  technical reasons the image will not load*/
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   height: 100%;
-  width: 100%;
-  
+
 }
 
 .heading {
-  text-align: center;
-  margin-top: 220px;
-  font-size: 2rem;
-  font-family: 'Aldrich', sans-serif;
-  color: gold;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
 }
+
 
 .countdown {
-  display:flex;
-  flex-direction: center;
+  display: flex;
+  margin-top: 130px;
   justify-content: space-evenly;
-  position: relative;
-  font-family: 'Mina', sans-serif;
-  font-size: 1rem;
-  margin-top: 50px;
-  color: white;
+  align-items: center;
+ 
+}
+
+h1 {
+
+  font-family: 'Keania One', cursive;
+  font-size: 50px;
+  color: rgb(181, 15, 15);
+}
+
+h2 {
+  font-family: 'Aldrich', sans-serif;
+  color: rgb(72, 18, 220);
 
 }
+
+h3 {
+  font-family: 'Mina', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
