@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>New Year Count Down</title>
-  <!--used this inline method because css style won't display for some technical reasons-->
-  <style>
-    body {
-      background-image: url('assets/images/skyone.jpg');
-    }
-    </style>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <title>New Year Countdown</title>
+</head>
 <body>
+
   <!--Layout-->
-  <div class="heading">
-    <h1>New Year Countdown</h1>
-  </div>
+  <h1><span class="fa-rotate-270" style="display: inline-block;">
+    <i class="fas fa-space-shuttle fa-flip-vertical"></i>
+  </span></h1>
+  
+    <h2>NEW YEAR COUNTDOWN</h2>
+    
+ 
 
   <div id="countdown" class="countdown">
     <div class="counter">
-      <h2 id="days"></h2>
-      <h3>Days</h3>
+      <h3 id="days">00</h3>
+      <h4>Days</h4>
     </div>
     <div class="counter">
-      <h2 id="hours"></h2>
-      <h3>Hours</h3>
+      <h3 id="hours">00</h3>
+      <h4>Hours</h4>
     </div>
     <div class="counter">
-      <h2 id="minutes"></h2>
-      <h3>Minutes</h3>
+      <h3 id="minutes">00</h3>
+      <h4>Minutes</h4>
     </div>
     <div class="counter">
-      <h2 id="seconds"></h2>
-      <h3>Seconds</h3>
+      <h3 id="seconds">00</h3>
+      <h4>Seconds</h4>
     </div>
   </div>
+  <!--animated background from https://codepen.io/saransh/pen/LYGbwj -->
+  <div id='galaxyone'></div>
+  <div id='galaxytwo'></div>
+  <div id='galaxythree'></div>
 
 
-  <script src="assets/js/script.js"></script>
-</body>
-
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
